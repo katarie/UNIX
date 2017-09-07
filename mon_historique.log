@@ -1,0 +1,23 @@
+cd clmystery/mystery/
+ls
+grep CLUE crimescene 
+grep Annabel people
+sed -n 40p streets/Hart_Place 
+cat interviews/interview-47246024 
+sed -n 179p streets/Buckingham_Place 
+cat interviews/interview-699607 
+grep L337 vehicles 
+grep -A 5 L337 vehicles 
+nano plaque.txt
+sed -n 40p streets/Hart_Place 
+grep CLUE crimescene 
+nano plaque.txt
+grep Annabel people 
+cat plaque.txt 
+grep -r Erika 
+cat plaque.txt 
+grep -r Germuska
+grep -r "Jacqui Maher"
+grep -r "Jeremy Bowers"
+echo Jeremy Bowers
+history >mon_historique.log
